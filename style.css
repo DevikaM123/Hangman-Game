@@ -13,20 +13,20 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(136, 85, 255, 0.243);
 
 }
 
 .container{
     width:1000px;
-    background-color: #efe9e9d0;
+    background-color: #ffffff;
     display: flex;
     gap: 70px;
     align-items: flex-end;
     padding: 60px 60px;
-    border-radius: 70px;
+    border-radius: 40px;
     border: white 5px;
-    border-style: groove;
+    
     
 }
 
@@ -58,7 +58,7 @@ body{
      text-align: center;
      text-transform: uppercase;
      margin-bottom: 40px;
-     border-bottom: 3px solid black;
+     border-bottom: 3px solid rgb(0, 0, 0);
 }
 .word-display .letter.guessed{
     border-color: transparent;
@@ -93,7 +93,7 @@ body{
     
     border: none;
     text-transform: uppercase;
-    background-color:#000000 ;
+    background-color:#1243e3cc ;
     border-radius: 4px;
 
 }
